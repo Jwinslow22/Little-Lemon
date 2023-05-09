@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Lemon</title>
+    <meta name="description" content="A traditional vegeterian restaurant.">
+    <meta name="author" content="Little Lemon Restaurant">
+
+    <meta property="og:title" content="Little Lemon Restaurant">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.littlelemonrestaurant.co.us">
+    <meta property="og:description" content="A traditional vegeterian restaurant">
+    <meta property="og:image" content="image.png">
+
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="http://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text">
+
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="logo.png">
+    </header>
+    <nav>
+        <ul class="menuItems">
+            <li><a href="index.html" data-item='Home'>Home</a></li>
+            <li><a href="menu.html" data-item='Menu'>Menu</a></li>
+            <li><a href="reserve.html" data-item='Reserve'>book</a></li>
+            <li><a href="about.html" data-item='About'>About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <article id="promoBanner">
+                <h1>50% off This Weekend</h1>
+                <p id="promoContent">
+                    Come down to Little Lemon and Enjoy our delicious Lemon Macarons this weekend. Free with every combo
+                    meal purchased.
+                </p>
+                <div>
+                    <img id="macarons" src="lemonmacarons.jpg"
+                        alt="Free Macarons this Weekend">
+                </div>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>Our New Menu</h2>
+                <div>
+                    <img id="menu" src="plantbasedburger.jpg"
+                        alt="Plant Based Burger and Chips">
+                </div>
+                <p>
+                    Our New vegeterian Menu focuses on healthy nutritious family recipes served with a modern twist.
+                    Drawing inspiration from Italian, Greek, and Turkish culture using authentic seasonal
+                    ingrediants.
+                </p>
+            </article>
+            <article>
+                <h2>Reserve a table</h2>
+                <div>
+                    <img id="reserve" src="ReserveATable.jpg" alt="Reserve a table">
+                </div>
+                <p>
+                    Along with a cozy and aesthetic atmosphere, Little Lemon has a variety of international flavorful meals for any time of the
+                    day!
+                </p>
+            </article>
+            <article>
+                <h2>Hours of Operation</h2>
+                <div>
+                    <img id="open" src="hoursofoperation.jpg" alt="Opening Hours">
+                </div>
+                <div id="times">
+                    <p>Mon - Fri: 12pm -11pm</p>
+                    <p>Sat: 12pm - 12pm</p>
+                    <p>Sun: 12m - 8pm</p>
+                </div>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <img src="lemonlogo.png.png" alt="Little Lemon Restaurant">
+        </div>
+        <div>
+            <p>Copyright Little lemon</p>
+        </div>
+    </footer>
+</body>
+
+</html>
